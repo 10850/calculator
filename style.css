@@ -19,7 +19,6 @@ body {
     display: grid;
     min-height: 90vh;
     min-width: 90vw;
-    max-width: 90vw;
 }
 
 .calculator .value {
@@ -69,8 +68,8 @@ body {
 
 @media screen and (min-width: 600px) {
     .calculator {
-        height: auto;
-        width: auto;
+        min-height: auto;
+        min-width: auto;
         grid-column-gap: 1px;
     }
 
@@ -83,6 +82,7 @@ body {
         outline: none;
         padding: 10px;
         font-size: 18px;
+        margin-bottom: 2px;
     
     }
 
